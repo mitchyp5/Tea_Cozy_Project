@@ -1,0 +1,153 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.header-flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.header {
+  display: inline-flex;
+  position: fixed;
+  z-index: 1;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+
+}
+
+.logo img {
+  padding-left: 10px;
+  height: 50px;
+}
+
+.nav a {
+  text-decoration: underline;
+  color: seashell;
+  justify-content: space-around;
+  padding-right: 20px;
+}
+
+.mission-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#mission {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  background-repeat: no-repeat;
+  margin-top: 70px;
+
+}
+
+.mission-content {
+  text-align: center;
+  background-color: black;
+  margin-top: 300px;
+
+}
+
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+
+#featured {
+  padding-top: 70px;
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+}
+
+.featured-content-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.featured-item {
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
+.featured-item img {
+  height: 200px;
+}
+
+.location-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#location {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+}
+
+#location h2 {
+  padding-top: 70px;
+}
+
+.downtown {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  opacity: 1;
+  margin-top: 15px;
+  margin-right: 40px;
+}
+
+.bayside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  opacity: 1;
+  margin-top: 15px;
+  margin-right: 40px;
+}
+
+.oakdale {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  opacity: 1;
+  margin-top: 15px;
+}
+
+.contact {
+  height: 200px;
+  width: 1000px;
+  margin: auto;
+  text align: center;
+}
+
+footer {
+  text-align: left;
+  margin-left: 20px;
+}
